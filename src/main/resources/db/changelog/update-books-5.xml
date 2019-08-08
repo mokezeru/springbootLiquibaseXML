@@ -9,6 +9,7 @@
         <preConditions>
             <dbms type="h2"/>
         </preConditions>
+        <comment>Updating Books</comment>
         <update tableName="books">
             <column name="name" value="Xantoxara"/>
             <where>name = 'Dertogada'</where>
